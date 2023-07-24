@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for login section */
+#login {
+  margin: 3rem 0;
+}
+#login h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#login form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#login form .form-group {
+  margin-bottom: 1rem;
+}
+#login form .form-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+#login form .form-group input[type=text],
+#login form .form-group input[type=password] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#login form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#login form button:hover {
+  background-color: #0062cc;
+}
+
+/* Styles for academic-progress section */
+#academic-progress {
+  margin: 3rem 0;
+  /* Add styles for the academic progress and attendance UI here */
+}
+#academic-progress h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Styles for communication section */
+#communication {
+  margin: 3rem 0;
+  /* Add styles for the communication tools UI here */
+}
+#communication h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Styles for school-announcements section */
+#school-announcements {
+  margin: 3rem 0;
+}
+#school-announcements h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#school-announcements .announcement-list {
+  list-style: none;
+  padding: 0;
+}
+#school-announcements .announcement-list li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+#school-announcements .announcement-list li:before {
+  content: "•"; /* Bullet point */
+  color: #007bff;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.5em;
+}/*# sourceMappingURL=parent.css.map */

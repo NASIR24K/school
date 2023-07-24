@@ -1,0 +1,36 @@
+/* Global styles and variables */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+/* Styles for help-desk section */
+#help-desk {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  /* Add styles for the help desk / support center content here */
+}
+
+/* Styles for contact-details section */
+#contact-details {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}

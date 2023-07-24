@@ -1,0 +1,81 @@
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for contact-form section */
+#contact-form {
+  margin: 3rem 0;
+}
+#contact-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#contact-form form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#contact-form form .form-group {
+  margin-bottom: 1rem;
+}
+#contact-form form .form-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+#contact-form form .form-group input[type=text],
+#contact-form form .form-group input[type=email],
+#contact-form form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#contact-form form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#contact-form form button:hover {
+  background-color: #0062cc;
+}
+
+/* Styles for contact-details section */
+#contact-details {
+  margin: 3rem 0;
+}
+#contact-details h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#contact-details p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for location-map section */
+#location-map {
+  margin: 3rem 0;
+}
+#location-map h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#location-map #map {
+  /* Add styles for the map container here */
+  height: 400px; /* Set the map height as per your requirement */
+}/*# sourceMappingURL=contact.css.map */

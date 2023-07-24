@@ -1,0 +1,107 @@
+/* Global styles and variables */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+/* Styles for mission-vision section */
+#mission-vision {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Styles for management-system section */
+#management-system {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: none;
+    li {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      &:before {
+        content: "\2022"; /* Bullet point */
+        color: $primary-color;
+        font-size: 1.5rem;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+}
+
+/* Styles for history-achievements section */
+#history-achievements {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: none;
+    li {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      &:before {
+        content: "\2022"; /* Bullet point */
+        color: $primary-color;
+        font-size: 1.5rem;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+}
+
+/* Styles for meet-the-team section */
+#meet-the-team {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .team-card {
+    text-align: center;
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

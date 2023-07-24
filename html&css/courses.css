@@ -1,0 +1,65 @@
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for course-list section */
+#course-list {
+  margin: 3rem 0;
+}
+#course-list h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#course-list .course-card {
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+#course-list .course-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#course-list .course-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+#course-list .course-card a {
+  margin-top: 1rem;
+}
+
+/* Styles for course-details section */
+#course-details {
+  margin: 3rem 0;
+}
+#course-details h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#course-details .course-details {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  /* Add styles for additional course details here */
+}
+#course-details .course-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#course-details .course-details p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+#course-details .course-details .course-enroll {
+  text-align: center;
+  margin-top: 1rem;
+}
+#course-details .course-details .course-enroll a {
+  margin-top: 1rem;
+}/*# sourceMappingURL=courses.css.map */

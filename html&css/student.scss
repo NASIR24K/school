@@ -1,0 +1,122 @@
+/* Global styles and variables */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+/* Styles for login section */
+#login {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    .form-group {
+      margin-bottom: 1rem;
+      label {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 1.2rem;
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}
+
+/* Styles for dashboard section */
+#dashboard {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .course-progress {
+    display: flex;
+    flex-wrap: wrap;
+    .course-card {
+      flex: 1 0 calc(33.33% - 1rem);
+      padding: 1.5rem;
+      border: 1px solid #ccc;
+      margin-bottom: 1.5rem;
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+/* Styles for notifications section */
+#notifications {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .notification-list {
+    list-style: none;
+    padding: 0;
+    li {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      &:before {
+        content: "\2022"; /* Bullet point */
+        color: $primary-color;
+        font-size: 1.5rem;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+/* Styles for calendar section */
+#calendar {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  #student-calendar {
+    /* Add styles for the calendar content here */
+  }
+}

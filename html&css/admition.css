@@ -1,0 +1,93 @@
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for admission-process section */
+#admission-process {
+  margin: 3rem 0;
+}
+#admission-process h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#admission-process p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for online-application section */
+#online-application {
+  margin: 3rem 0;
+}
+#online-application h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#online-application form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#online-application form .form-group {
+  margin-bottom: 1rem;
+}
+#online-application form .form-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+#online-application form .form-group input[type=text],
+#online-application form .form-group input[type=email] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#online-application form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#online-application form button:hover {
+  background-color: #0062cc;
+}
+
+/* Styles for requirements-documentation section */
+#requirements-documentation {
+  margin: 3rem 0;
+}
+#requirements-documentation h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#requirements-documentation p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for contact section */
+#contact {
+  margin: 3rem 0;
+}
+#contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#contact p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=admition.css.map */

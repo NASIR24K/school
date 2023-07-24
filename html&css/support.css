@@ -1,0 +1,33 @@
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for help-desk section */
+#help-desk {
+  margin: 3rem 0;
+  /* Add styles for the help desk / support center content here */
+}
+#help-desk h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Styles for contact-details section */
+#contact-details {
+  margin: 3rem 0;
+}
+#contact-details h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#contact-details p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=support.css.map */

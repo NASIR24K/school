@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Styles for feature cards section */
+#features {
+  margin: 3rem 0;
+}
+#features h2 {
+  text-align: center;
+}
+#features .feature-card {
+  text-align: center;
+}
+#features .feature-card i {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+#features .feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#features .feature-card p {
+  font-size: 1.1rem;
+}
+
+/* Styles for call-to-action section */
+#call-to-action {
+  text-align: center;
+  margin: 3rem 0;
+}
+#call-to-action h2 {
+  margin-bottom: 1rem;
+}
+#call-to-action p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+#call-to-action .cta-buttons a {
+  margin: 0 1rem;
+}
+
+/* Styles for testimonial cards section */
+#testimonials {
+  margin: 3rem 0;
+}
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#testimonials .testimonial-card {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  margin-bottom: 2rem;
+}
+#testimonials .testimonial-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+#testimonials .testimonial-card .author {
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Styles for services section */
+#services {
+  margin: 3rem 0;
+}
+#services h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#services p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+#services ul {
+  list-style: none;
+}
+#services ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+#services ul li:before {
+  content: "•"; /* Bullet point */
+  color: #007bff;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}/*# sourceMappingURL=styles.css.map */

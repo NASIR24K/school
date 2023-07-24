@@ -1,0 +1,30 @@
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for management-system-faqs section */
+#management-system-faqs {
+  margin: 3rem 0;
+  /* Add styles for the management system FAQs here */
+}
+#management-system-faqs h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Styles for general-faqs section */
+#general-faqs {
+  margin: 3rem 0;
+  /* Add styles for the general FAQs here */
+}
+#general-faqs h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=faq.css.map */

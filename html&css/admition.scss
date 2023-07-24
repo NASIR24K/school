@@ -1,0 +1,96 @@
+/* Global styles and variables */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+/* Styles for admission-process section */
+#admission-process {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Styles for online-application section */
+#online-application {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    .form-group {
+      margin-bottom: 1rem;
+      label {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+      input[type="text"],
+      input[type="email"] {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 1.2rem;
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}
+
+/* Styles for requirements-documentation section */
+#requirements-documentation {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Styles for contact section */
+#contact {
+  margin: 3rem 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}

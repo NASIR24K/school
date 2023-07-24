@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Global styles and variables */
+/* Styles for header section */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Styles for school-news section */
+#school-news {
+  margin: 3rem 0;
+  /* Add styles for the school news posts here */
+}
+#school-news h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Styles for upcoming-events section */
+#upcoming-events {
+  margin: 3rem 0;
+}
+#upcoming-events h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#upcoming-events .event-list {
+  list-style: none;
+  padding: 0;
+}
+#upcoming-events .event-list li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+#upcoming-events .event-list li:before {
+  content: "•"; /* Bullet point */
+  color: #007bff;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.5em;
+}
+
+/* Styles for past-events-gallery section */
+#past-events-gallery {
+  margin: 3rem 0;
+  /* Add styles for the image gallery here */
+}
+#past-events-gallery h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=event.css.map */
